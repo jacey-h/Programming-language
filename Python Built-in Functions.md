@@ -20,9 +20,12 @@ print(chr(65))	# A
 print(ord('A'))	# 65
 ```
 
-- `dir(변수)` : 속성 목록 표현
+- `dir(변수)` : 속성 목록 표현   
+![image](https://user-images.githubusercontent.com/81483791/170988570-0896c1da-b63b-4e81-82ea-15d68a123633.png)
 
-- `dir()` : 인자 없이 사용할 경우 → 실행된 시점에서 유효한 변수 목록 표시
+- `dir()` : 인자 없이 사용할 경우 → 실행된 시점에서 유효한 변수 목록 표시   
+![image](https://user-images.githubusercontent.com/81483791/170988789-4c894c4e-1aaa-4112-a170-249a92618f80.png)
+
         
 - `enumerate()` : 반복문 사용 시 몇 번째 반복문인지 확인할때
 
