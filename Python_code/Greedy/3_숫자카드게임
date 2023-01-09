@@ -1,0 +1,34 @@
+n,m = map(int,input().split())
+
+big_list = []
+
+for i in range(n):
+  arr_in = list(map(int,input().split()))
+  arr_in.sort()
+  big_list.append(arr_in[0])
+
+print(sorted(big_list)[-1])
+
+# 정답 1 - min()함수 사용하는 경우
+n,m = map(int,input().split())
+
+result=0
+for i in range(n):
+  data = list(map(int,input().split()))
+  min_value=min(data)
+
+  result=max(result,min_value)
+print(result)
+
+# 정답 2 - 2중 반복문 구조를 이용하는 경우
+n,m = map(int,input().split())
+
+result=0
+for i in range(n):
+  data = list(map(int,input().split()))
+  min_value = 10001
+  for i in data:
+    min_value = min(min_value,i)
+  result=max(result,min_value)
+
+print(result)
